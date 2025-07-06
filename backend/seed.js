@@ -6,7 +6,7 @@ const register = async () => {
     try {
         await connectDB();
 
-        const hashPassword = await bcrypt.hash("admin", 10);
+        const hashPassword = await bcrypt.hash(" ", 10);
 
         // Create or update admin user
         const Admin = await User.findOneAndUpdate(
