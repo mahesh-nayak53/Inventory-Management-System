@@ -33,7 +33,7 @@ app.use('/api/orders', orderRoutes);
 app.use('/api/dashboard', dashboardRoutes);
 
 // // MongoDB URI
-// const uri = "mongodb+srv://maheshnayakgvt06:Ve2S1XBQx8LxT1eO@inventory.dbeezxs.mongodb.net/?retryWrites=true&w=majority&appName=Inventory";
+// const uri = " ";
 
 // // MongoDB Client
 // const client = new MongoClient(uri, {
